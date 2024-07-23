@@ -1,0 +1,33 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tabs {
+  border: 1px solid;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #f1f1f1;
+}
+
+.tab.active {
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #ffffff;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #ffffff;
+}
